@@ -58,3 +58,9 @@ const updateUserValidator = [
     validateResult(req, res, next);
   },
 ];
+
+
+module.exports = {
+  createUserValidator,
+  updateUserValidator,
+};
